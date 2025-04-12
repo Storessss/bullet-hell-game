@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://btv1w1qr00te1"]
+
+[ext_resource type="PackedScene" uid="uid://buhlckhhpymgb" path="res://scenes/players/triangle.tscn" id="1_0ohrk"]
+
+[node name="Arena" type="Node2D"]
+
+[node name="Triangle" parent="." instance=ExtResource("1_0ohrk")]

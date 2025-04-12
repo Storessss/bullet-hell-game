@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://buhlckhhpymgb"]
+
+[ext_resource type="PackedScene" uid="uid://cq0xcbm0kpbf2" path="res://scenes/players/player.tscn" id="1_o8cyj"]
+[ext_resource type="Script" uid="uid://cybtbdul83ouj" path="res://scenes/players/triangle.gd" id="2_h07qx"]
+
+[node name="Triangle" instance=ExtResource("1_o8cyj")]
+script = ExtResource("2_h07qx")
+health = 4
+speed = 500
+damage = 1
+fire_rate = 0.6
+bullet_range = 5.0
+bullet_speed = 500
+shape_points = 3
+shape_color = Color(0, 0.454902, 1, 1)
